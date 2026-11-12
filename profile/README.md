@@ -5,7 +5,7 @@
 
 **To-altepetl:** *nuestra comunidad*. En náhuatl, *altepetl* (de *atl*, agua, y *tepetl*, cerro) es el pueblo: la fuente de agua junto al territorio que la protege.
 
-Hacemos herramientas abiertas y pequeñas para la vida diaria en Guadalajara.
+Hacemos herramientas abiertas y pequeñas para la vida diaria.
 
 ### Proyectos
 
