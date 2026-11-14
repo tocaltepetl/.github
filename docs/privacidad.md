@@ -26,7 +26,10 @@ funciona»):
 
 ## Lo que se publica en GitHub
 Las solicitudes o reportes con detalle se publican como issues públicos. No
-incluyas datos personales, CURP, RFC, folios ni contraseñas.
+incluyas datos personales, CURP, RFC, folios de trámites personales ni
+contraseñas. Los folios de solicitudes de transparencia sí pueden publicarse:
+ya son públicos en la Plataforma Nacional de Transparencia (ver
+[solicitudes](solicitudes/README.md)).
 
 ## No somos gobierno
 Los proyectos son ciudadanos y **no oficiales**. No representan a ninguna
