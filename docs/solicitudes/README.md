@@ -30,7 +30,8 @@ Usa la [plantilla](plantilla.md). Reglas:
    se puede evaluar punto por punto.
 3. **Pide documentos que existen**, no opiniones ni explicaciones: archivos,
    contratos, convenios, bases de datos, manuales técnicos, direcciones de
-   servicios. Si hay pruebas de que existen (p. ej. el gobierno ya los dio a
+   servicios. En vez de «¿por qué no funciona?», pide «reportes de incidencia,
+   órdenes de servicio y el plan o cronograma para restablecerlo». Si hay pruebas de que existen (p. ej. el gobierno ya los dio a
    una empresa), menciónalo.
 4. **Formato abierto y legible por máquina** (CSV, JSON, GTFS, SHP…), no PDF
    escaneado. Modalidad electrónica, sin costo.
@@ -55,7 +56,10 @@ Usa la [plantilla](plantilla.md). Reglas:
 Lo mínimo, en la página del proyecto:
 - Por qué importa, en dos o tres frases.
 - Botón «Copiar solicitud» con el texto de la sección «Texto para pegar» del
-  `.md` (una sola fuente; si cambia el `.md`, cambia la página).
+  `.md`. Si la página no puede leer el `.md` (sitio estático, `file://`), se
+  copia el texto en la página con un comentario
+  `<!-- fuente: docs/solicitudes/<archivo>.md -->`, y el PR que cambie uno
+  debe cambiar el otro (opcional: un paso de CI que compare ambos textos).
 - Enlace a la PNT y pasos: elegir ámbito y sujeto obligado, pegar, modalidad
   electrónica, **guardar el folio**.
 - Aviso de que existe el recurso de revisión si no responden o la respuesta no
@@ -73,6 +77,11 @@ Opcional, a criterio de cada proyecto:
   lo que pesa es la solicitud formal.
 
 ## Seguimiento
+El encabezado del archivo registra la **solicitud de referencia** del
+proyecto. Las que envíen otras personas con el mismo texto se juntan en el
+issue `transparencia` (folio, estado y respuesta, sin nombres) o en el
+registro anónimo, si el proyecto lo tiene.
+
 Al enviarla, llena el encabezado del archivo (ver plantilla): folio, fecha de
 envío y fecha límite que muestra la plataforma. Estados posibles:
 
@@ -91,7 +100,9 @@ envío y fecha límite que muestra la plataforma. Estados posibles:
 
 ## Publicar la respuesta
 - Sube la respuesta a `docs/solicitudes/respuestas/` quitando datos personales
-  de servidores públicos que no sean de su función y de particulares.
+  de servidores públicos que no sean de su función y de particulares. El PDF
+  de respuesta y el acuse suelen traer el nombre o seudónimo y el correo de
+  quien solicitó: quítalos antes de subirlos.
 - Resume en el archivo de la solicitud qué se entregó punto por punto
   (✅ entregado · ◐ parcial · ❌ negado · — sin respuesta).
 - Si entregaron datos útiles, súbelos al proyecto como datos abiertos y

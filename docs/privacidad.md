@@ -28,8 +28,8 @@ funciona»):
 Las solicitudes o reportes con detalle se publican como issues públicos. No
 incluyas datos personales, CURP, RFC, folios de trámites personales ni
 contraseñas. Los folios de solicitudes de transparencia sí pueden publicarse:
-ya son públicos en la Plataforma Nacional de Transparencia (ver
-[solicitudes](solicitudes/README.md)).
+ya son públicos en la Plataforma Nacional de Transparencia; nunca se liga un
+folio con quien lo envió (ver [solicitudes](solicitudes/README.md)).
 
 ## No somos gobierno
 Los proyectos son ciudadanos y **no oficiales**. No representan a ninguna

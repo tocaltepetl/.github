@@ -2,7 +2,8 @@
 # Encabezado de seguimiento (llénalo al enviar; ver README.md de esta carpeta)
 proyecto: nombre-del-repo
 sujeto_obligado: Nombre completo de la dependencia
-ambito: Jalisco            # Jalisco | Federación | municipio
+ambito: estatal            # estatal | federal | municipal
+entidad: Jalisco           # y municipio, si aplica
 tema: qué datos se piden, en pocas palabras
 estado: borrador           # borrador | enviada | prorroga | respondida | parcial | negada | sin-respuesta | en-recurso | cerrada
 folio:                     # público en la PNT; nunca el nombre de quien envía
