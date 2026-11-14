@@ -18,6 +18,12 @@ Sigue la [política de privacidad común](docs/privacidad.md). En resumen:
 - No incluyas coordenadas, direcciones ni datos personales de nadie en el
   código, issues o capturas.
 
+## Solicitudes de transparencia
+Para pedir al gobierno que abra sus datos, sigue la
+[guía común](docs/solicitudes/README.md) y su [plantilla](docs/solicitudes/plantilla.md):
+un archivo por solicitud en `docs/solicitudes/` del proyecto, revisado en un PR
+antes de enviarlo, y seguimiento con un issue `transparencia`.
+
 ## Identidad
 Los proyectos **no son oficiales**. No uses logos, nombres ni imágenes de
 dependencias de gobierno ni de sus apps, ni textos que hagan parecer que lo
