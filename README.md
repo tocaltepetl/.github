@@ -1,6 +1,20 @@
 # tocaltepetl/.github
 
-Perfil público de la organización (`profile/README.md`) y logos oficiales (`brand/`).
+Perfil público de la organización (`profile/README.md`), logos oficiales (`brand/`) y documentación común a todos los proyectos.
+
+## Documentación común
+GitHub usa estos archivos en cualquier repo de la organización que no tenga el suyo:
+
+- [`CONTRIBUTING.md`](CONTRIBUTING.md): privacidad, identidad, proceso, títulos de PR e idioma.
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md).
+
+Y cada proyecto enlaza a:
+
+- [`docs/privacidad.md`](docs/privacidad.md): qué datos guardamos y cuáles no (conteo de visitas, reportes anónimos).
+
+Un repo solo tiene su propio `CONTRIBUTING.md` si necesita reglas extra, y entonces enlaza a este para lo común.
+
+## Marca
 
 | Archivo | Uso |
 | --- | --- |
