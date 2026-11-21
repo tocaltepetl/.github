@@ -18,11 +18,29 @@ Sigue la [política de privacidad común](docs/privacidad.md). En resumen:
 - No incluyas coordenadas, direcciones ni datos personales de nadie en el
   código, issues o capturas.
 
+## Antes de empezar: buscar lo que ya existe
+Antes de avanzar con un proyecto (o con una función que dependa de datos del
+gobierno), confirma que la información no la publican ya las autoridades ni la
+pidió alguien más:
+1. **Publicación oficial:** portal de datos abiertos y sitio de la dependencia,
+   y sus obligaciones de transparencia (SIPOT) en la
+   [Plataforma Nacional de Transparencia](https://www.plataformadetransparencia.org.mx).
+2. **Solicitudes previas:** el
+   [buscador de la PNT](https://buscador.plataformadetransparencia.org.mx/)
+   (solicitudes y respuestas de cualquier persona). Una respuesta ya entregada
+   puede bastar, o decir a qué dependencia preguntar.
+
+Anota en `docs/decisiones.md` qué buscaste, dónde y qué encontraste (también
+si no hubo nada). No afirmes que «no hay información pública» sin esa
+búsqueda.
+
 ## Solicitudes de transparencia
 Para pedir al gobierno que abra sus datos, sigue la
 [guía común](docs/solicitudes/README.md) y su [plantilla](docs/solicitudes/plantilla.md):
-un archivo por solicitud en `docs/solicitudes/` del proyecto, revisado en un PR
-antes de enviarlo, y seguimiento con un issue `transparencia`.
+primero una prueba en seco (*dry-run*) para saber exactamente a qué sujetos
+obligados dirigirla; luego un archivo por solicitud en `docs/solicitudes/` del
+proyecto, revisado en un PR antes de enviarlo, y seguimiento con un issue
+`transparencia`.
 
 ## Identidad
 Los proyectos **no son oficiales**. No uses logos, nombres ni imágenes de

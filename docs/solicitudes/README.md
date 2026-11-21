@@ -17,6 +17,43 @@ a la ciudadanía sin depender de plataformas privadas.
 Un archivo por solicitud (por sujeto obligado). Si el mismo texto se manda a
 dos dependencias, son dos archivos.
 
+## Antes de redactar
+### 1. ¿Ya existe?
+No pidas lo que ya es público ni repitas una solicitud ya respondida:
+- **Publicación oficial:** portal de datos abiertos y sitio de la dependencia,
+  y sus obligaciones de transparencia (SIPOT) en la
+  [PNT](https://www.plataformadetransparencia.org.mx).
+- **Solicitudes previas:** el
+  [buscador de la PNT](https://buscador.plataformadetransparencia.org.mx/).
+  Si alguien ya la pidió, lee la respuesta: puede bastar, o puede citarse en la
+  nueva solicitud («en la respuesta al folio X se informó que…»).
+
+Registra la búsqueda en la sección «Búsqueda previa» de la
+[plantilla](plantilla.md): qué términos, dónde, qué folios o publicaciones
+salieron. Si la información ya está publicada, no hay solicitud: se usa y se
+anota en `docs/decisiones.md`.
+
+### 2. Prueba en seco (*dry-run*): ¿a quién se le pide?
+Una solicitud mal dirigida se pierde en una respuesta de «incompetencia» y
+semanas de espera. Antes de redactar el texto final, determina exactamente qué
+sujetos obligados tienen cada dato:
+1. **Candidatos:** quién genera, opera, contrata, regula o resguarda el dato
+   (dependencia, organismo descentralizado, fideicomiso, municipio o estado).
+   Confírmalo con sus atribuciones en la ley orgánica o el reglamento interior,
+   no por el nombre.
+2. **Respuestas previas:** en el buscador de la PNT, mira a quién se dirigieron
+   solicitudes parecidas y si respondieron con incompetencia, orientación o
+   remisión a otra dependencia: eso dice quién sí es competente.
+3. **Catálogo de la PNT:** llena el formulario de nueva solicitud **sin
+   enviarlo** para confirmar que cada sujeto obligado aparece y con qué nombre
+   exacto (ámbito, entidad, municipio).
+4. **Reparto:** asigna cada punto a quien le compete. Un archivo por sujeto
+   obligado, con solo sus puntos; quita o divide los que nadie tenga claro.
+
+El resultado va en la sección «Prueba en seco» de la plantilla y se revisa en
+el mismo PR que el texto. Claude puede hacer la búsqueda y la prueba en seco;
+no envía nada.
+
 ## Cómo se escribe una solicitud
 Usa la [plantilla](plantilla.md). Reglas:
 
@@ -110,6 +147,9 @@ envío y fecha límite que muestra la plataforma. Estados posibles:
 - Si se negaron, eso también se publica: es información.
 
 ## Revisión antes de enviar
+- [ ] Búsqueda previa hecha: no está publicada ni ya respondida
+- [ ] Prueba en seco hecha: cada sujeto obligado es competente para sus puntos
+      y su nombre coincide con el catálogo de la PNT
 - [ ] Usa la plantilla y cada punto pide un documento o dato concreto
 - [ ] Fundamento y plazos verificados (nada inventado)
 - [ ] Formato abierto, modalidad electrónica, versión pública
