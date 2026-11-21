@@ -44,6 +44,21 @@ o el estándar del sector, p. ej. GTFS). Si alguna
 parte se considera reservada o confidencial, solicito la versión pública del
 resto y la prueba de daño correspondiente.
 
+## Búsqueda previa
+<No va en la solicitud. Qué buscaste antes de pedir, y qué salió.>
+- **Publicación oficial** (datos abiertos, sitio, SIPOT): <dónde y resultado>
+- **Solicitudes previas** (buscador de la PNT, términos usados): <folios y qué
+  respondieron, o «ninguna»>
+
+## Prueba en seco
+<No va en la solicitud. A quién se le pide cada punto y por qué.>
+
+| Sujeto obligado (nombre en la PNT) | Puntos | Por qué es competente |
+|---|---|---|
+| <nombre exacto del catálogo> | 1, 2 | <atribución, respuesta previa, etc.> |
+
+Descartados: <dependencias consideradas que no tienen el dato, y por qué>.
+
 ## Por qué la pedimos
 <Para el proyecto, no va en la solicitud: qué hueco cubre y qué haremos con
 la respuesta.>
